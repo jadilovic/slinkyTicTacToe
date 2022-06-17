@@ -47,12 +47,12 @@ ul {
 }
 
 .game-board {
-	margin-left: 47%;
+	display: inline-block;
 }
 
-/* .game-info {
-	margin-left: 47%;
-} */
+.game-info {
+	display: inline-block;
+}
 
 /* .game-status {
 	margin-left: 10%;

@@ -50,7 +50,7 @@ import slinky.core.facade.ReactElement
       .getOrElse(s"Next player ${nextPlayer.mkString}")
 
     div(className := "game")(
-      h1("Redux Tutorial's TicTacToe"),
+      h2("Slinky Scala React TicTacToe Tutorial"),
       div(className := "game-board")(
         Board(current.squares, i => handleClick(i))
       ),
