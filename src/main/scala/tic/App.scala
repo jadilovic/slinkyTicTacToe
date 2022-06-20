@@ -31,6 +31,12 @@ object ReactLogo extends js.Object
         "To get started, edit ", code("App.scala"), " and save to reload."
       ),
       Game(),
+      Hello(name = "Jasmin").withKey("my-hello-key").withRef(componentInstance => {
+        println(componentInstance)
+      }),
+      MyButton(),
+      NameComponent(name = "Mark"),
+      HooksComponent(name = "Bob")
     )
   }
 }

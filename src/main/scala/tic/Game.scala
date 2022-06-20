@@ -5,10 +5,8 @@ import slinky.core.annotations.react
 import slinky.web.html._
 
 import scala.scalajs.js
-import scala.scalajs.js.annotation.JSImport
 import slinky.core.facade.ReactElement
 
-@JSImport("resources/App.css", JSImport.Default)
 @react class Game extends Component {
   type Props = Unit
 
